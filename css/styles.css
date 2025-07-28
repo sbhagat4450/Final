@@ -1,0 +1,232 @@
+/* Sagar bhagat */
+/* =====================================
+   Author: Sagar Bhagat
+   Assignment 2 - Web Foundations
+   File: style.css
+   ===================================== */
+
+/* root element styling for  html */
+html {
+    font: italic small-caps bold 20px/1.5 Arial, sans-serif;
+    background-color: #f0eff3;
+}
+
+/* chaning the body with some colour modification  */
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 0.5rem solid #000000;
+    background-color: hsl(167, 67%, 60%);
+}
+
+/* center with clear gradient */
+header {
+    font-size: 2.5rem;
+    color: #d80712;
+    background-image: linear-gradient(to right, #d9f0e4, #f1e100);
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+    unicode-bidi: isolate;
+}
+
+/* changing the layout as main = 70% */
+main {
+
+    font: normal small-caps normal 20px "Amiri", serif;
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    width: 70%;
+    padding: 1rem;
+}
+
+/* changing the lay out as aside =30 */
+aside {
+    float: left;
+    width: 30%;
+
+
+}
+
+/* clear linearGradient on the footer with center alignment */
+footer {
+    clear: both;
+    text-align: center;
+    font-size: 0.8rem;
+    background: linear-gradient(to right, #d9f0e4, #f1e100);
+    color: #d80712;
+    padding: 1rem;
+
+}
+
+/* section heading styling in red colour  */
+section h2 {
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Georgia, serif;
+    color: red;
+    text-align: center;
+}
+
+/* styling the blackqoute */
+blockquote {
+    font-style: italic;
+    background-color: hsl(192, 8%, 88%);
+    padding: 1.2rem;
+    border-left: 0.5rem solid #000000;
+    width: 80%;
+    margin: 2rem auto;
+    box-shadow: 0.5rem 0.5rem 0.5rem rgba(22, 22, 22, 0.1);
+    ;
+}
+
+/* /* here modifyign the figure  */
+figure {
+    border: 0.3rem solid #060a08;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    background-color: #F9F9F9;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* modfying the imge  */
+figure img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: 35%;
+    border: 1rem solid #d9dfdc;
+    border-radius: 0.5rem;
+}
+
+/* chnaging the caption for fig  */
+figcaption {
+    font-size: 0.9rem;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+/* putting famous qoute in box  */
+#famous-quote {
+    border: 0.3rem solid #050505;
+    box-shadow: 0 0.5 rem 1rem rgba(0, 0, 0, 0.5);
+    width: 80%;
+    font-family: "Amiri", serif;
+    font-style: italic;
+    color: #000000ea;
+    padding: 1rem;
+    margin: 1rem auto;
+    text-align: center
+}
+
+/* making the border around the video  */
+
+iframe {
+    border: 0.3rem solid #0a0c0b;
+    display: block;
+    margin: 1rem auto;
+    width: 80%;
+}
+
+/* modfying the links  */
+ol {
+    display: block;
+    list-style-type: lower-alpha;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    padding-inline-start: 30px;
+    unicode-bidi: isolate;
+}
+
+/* Aligning the links  */
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+
+/* changing the colour of the links  */
+a:link {
+    color: #030303;
+    text-decoration: none;
+}
+
+/* modifying the hovering colour */
+a:hover {
+    color: yellow;
+
+}
+
+/* changing the selection link  */
+a::selection {
+    color: #d9f0e4;
+}
+
+/* modifying the input options for the user  */
+form {
+    display: block;
+    margin-top: 0.5em;
+    unicode-bidi: isolate;
+}
+
+/* chnaging the colour of the form-label  */
+.form-label {
+    font-variant: small-caps;
+    font-weight: bold;
+    color: #ff0000;
+
+}
+
+/* changing the colour to red for form-control  */
+.form-control {
+    padding: 0.5rem;
+    border: 0.1rem solid #ff0909;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+/* making the box  in red coloiur  */
+input[type="submit"] {
+    background-color: #f80404;
+    width: 100%;
+}
+
+/* modifying the table  */
+table {
+    width: 110%;
+    border-collapse: collapse;
+    margin-bottom: 1.5rem;
+    table-layout: fixed;
+    word-wrap: break-word;
+    border-color: black;
+    border: radius 1px;
+
+}
+
+/* changing the colour  of the table heading to red  */
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    unicode-bidi: isolate;
+    border-color: rgb(230, 0, 0);
+}
+
+/* changing the colour of the text in the top rows */
+th {
+    text-align: left;
+    font-weight: italic;
+    font-variant: small-caps;
+    background-color: #f7c900;
+    color: #fa0909;
+    padding: 0.5rem;
+}
+
+/* making the colour yellow in side the even coloum  */
+tr:nth-child(even) {
+    background-color: #ebc908ea;
+}
